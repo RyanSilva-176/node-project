@@ -5,7 +5,7 @@ import mysql from "mysql";
 const app = express();
 
 app.use(cors());
-app.use(express.json()); // Adicione esta linha
+app.use(express.json());
 
 const connection = mysql.createConnection({
   host: "localhost",
